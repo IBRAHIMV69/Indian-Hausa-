@@ -12,15 +12,15 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(500deg, #141430, #141430);
+            background-color: #f9f9f9;
         }
         header {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
-            height: 56px;
-            background-color: rgba(0, 0, 0, 0.2);
+            height: 50px;
+            background-color: #fff;
             display: flex;
             border: 1px solid #ccc;
             border-radius: 8px;
@@ -37,10 +37,10 @@
             width: 100%;
         }
         .logo {
-            font-size: 15px;
+            font-size: 16px;
             margin: 0 9px;
             border: 1px solid #ccc;
-            background: linear-gradient(to right, #ff0000, #ff0000);
+            background: linear-gradient(to right, #004d00, #00b300);
             border-radius: 20px;
             padding: 9px 9px;
             font-weight: bold;
@@ -50,7 +50,7 @@
             flex: 0 1 100px;
             margin: 0 10px;            
             padding: 7px;
-            background-color: #ddd;
+            background-color: #f1f1f1;
             border: 2px solid #ccc;
             border-radius: 20px;
             font-size: 14px;
@@ -63,7 +63,7 @@
         .history-icon {
             font-size: 20px;
             cursor: pointer;
-            color: #ddd;
+            color: #333;
         }
         .history-icon:hover {
             color: #00b300;
@@ -194,8 +194,8 @@
         }
         .discover-item {
             flex: 0 0 auto;
-            width: 110px;
-            background-color: #141430;
+            width: 130px;
+            background-color: #f0f0f0;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             overflow: hidden;
@@ -214,7 +214,7 @@
         .discover-item .content h2 {
             font-size: 6px;
             margin: 0;
-            color: #fff;
+            color: #333;
         }
         .discover-item .content p {
             font-size: 0px;
@@ -222,7 +222,7 @@
             margin: 0px 0;
         }
         .discover-item button {
-    background: linear-gradient(to right, #ff, #00b300);
+    background: linear-gradient(to right, #004d00, #00b300);
     color: #fff;
     border: 1px solid #ccc;
     padding: 5px 2px;
@@ -244,11 +244,10 @@
             padding: 2px;
         }
         .category-title {
-            font-size: 18px;
+            font-size: 20px;
             font-weight: bold;
             margin-bottom: 15px;
             display: flex;
-            color: #fff;
             margin-left: 7px;
             justify-content: space-between;
             align-items: center;
@@ -285,7 +284,7 @@
         .frame {
             flex: 0 0 auto;
             width: 112px;
-            background-color: #141430;
+            background-color: #f0f0f0;
             border-radius: 8px;
             margin-left: 5px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -294,18 +293,17 @@
         }
         .frame img {
             width: 100%;
-            aspect-ratio: 16 / 23;
+            aspect-ratio: 16 / 24;
             object-fit: cover;
             border-radius: 5px;
         }
         .frame .content h2 {
             font-size: 6px;
-            color: #fff;
             text-align: center;
             margin-top: 0px;
         }
         .frame .content button {
-            background: linear-gradient(to right, #ff, #00b300);
+            background: linear-gradient(to right, #004d00, #00b300);
             color: #fff;
             border: 1px solid #ccc;
             padding: 5px 5px;
@@ -324,7 +322,7 @@
 
         /* Grid Layout for View All and Search Results */
         .grid-container {
-            margin-top: 100px;
+            margin-top: 90px;
             padding: 10px;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -438,7 +436,7 @@
 
 #social-media-descriptions h2 {
     font-size: 15px;
-    color: #fff;
+    color: #333;
     margin: 5;
 }
 
@@ -457,8 +455,8 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: linear-gradient(to right, #fff, #fff);
-    color: black;
+    background: linear-gradient(to right, #004d00, #00b300);
+    color: white;
     font-size: 18px;
     cursor: pointer;
     text-decoration: none;
@@ -589,7 +587,7 @@
 .bars-icon {
     font-size: 20px;
     cursor: pointer;
-    color: #ddd;
+    color: #333;
     margin-left: 10px;
 }
 
@@ -643,9 +641,8 @@ footer {
     justify-content: space-around;
     align-items: center;
     padding: 12px 0;
-    border: 1px solid #ccc;
     border-radius: 10px;
-    background: linear-gradient(500deg, #141430, #141430);
+    background-color: #fff;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -657,10 +654,10 @@ footer {
 footer .nav-icon {
     flex: 1;
     text-align: center;
-    color: #ddd;
+    color: #333;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-    font-size: 9px;
+    font-size: 9.2px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -703,7 +700,7 @@ footer.hide {
 .profile-item h4 {
     margin: 0;
     font-size: 8px;
-    color: #fff;
+    color: #333;
 }
 
 .profile-item p {
@@ -784,7 +781,7 @@ footer.hide {
     color: white;
     font-size: 14px;
     padding: 8px 12px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
     cursor: pointer;
     display: flex;
@@ -826,7 +823,6 @@ footer.hide {
 
         .partners-title {
             font-size: 18px;
-            color: #fff;
             text-align: left;
             font-weight: bold;
             margin-bottom: 15px;
@@ -864,10 +860,10 @@ footer.hide {
         }
 
         .partner-item img {
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 160px;
             object-fit: cover;
-            border-radius: 50px;
+            border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: transform 0.2s;
         }
@@ -879,7 +875,7 @@ footer.hide {
         .partner-title {
             font-size: 14px;
             margin-top: 5px;
-            color: #fff;
+            color: #333;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -2056,8 +2052,8 @@ const createProfileItem = (item) => {
     const name = document.createElement('h4');
     name.textContent = item.name;
     name.style.margin = '0';
-    name.style.fontSize = '12px';
-    name.style.color = '#fff';
+    name.style.fontSize = '14px';
+    name.style.color = '#333';
 
     const description = document.createElement('p');
     description.textContent = item.description;
@@ -2070,7 +2066,7 @@ const createProfileItem = (item) => {
     openButton.style.backgroundColor = '#00b300';
     openButton.style.color = '#fff';
     openButton.style.border = 'none';
-    openButton.style.padding = '7px 10px';
+    openButton.style.padding = '5px 10px';
     openButton.style.borderRadius = '5px';
     openButton.style.cursor = 'pointer';
     openButton.style.fontSize = '12px';
@@ -2137,8 +2133,8 @@ const createUnlockedListItem = (item) => {
     const img = document.createElement('img');
     img.src = item.imgUrl;
     img.alt = item.title;
-    img.style.width = '100px';
-    img.style.height = '150px';
+    img.style.width = '80px';
+    img.style.height = '100px';
     img.style.objectFit = 'cover';
     img.style.borderRadius = '5px';
 
@@ -2149,7 +2145,7 @@ const createUnlockedListItem = (item) => {
     title.textContent = item.title;
     title.style.margin = '0';
     title.style.fontSize = '14px';
-    title.style.color = '#fff';
+    title.style.color = '#333';
 
     const description = document.createElement('p');
     description.textContent = item.description;
@@ -2582,8 +2578,10 @@ const partnersData = [
             { imgUrl: "https://short-link.me/TsFN", videoUrl: "https://youtube.com/embed/BjkncLAZu80", title: "LABARINA" },
         ];
 
+        const partnersScroll = document.getElementById('partners-scroll');
+
+        // Function to create the partner items
         const createPartnersSection = () => {
-            const partnersScroll = document.getElementById('partners-scroll');
             partnersScroll.innerHTML = '';
 
             partnersData.forEach(partner => {
@@ -2610,9 +2608,41 @@ const partnersData = [
             });
         };
 
-        // Call the function to create the partners section
+        // Auto-scroll function
+        let scrollIndex = 0;
+        let autoScrollActive = true;
+        let scrollTimeout;
+
+        const autoScroll = () => {
+            if (!autoScrollActive) return;
+
+            const items = document.querySelectorAll('.partner-item');
+            if (items.length === 0) return;
+
+            scrollIndex = (scrollIndex + 1) % items.length;
+            const nextItem = items[scrollIndex];
+
+            partnersScroll.scrollTo({
+                left: nextItem.offsetLeft,
+                behavior: 'smooth'
+            });
+        };
+
+        // Detect manual scroll and pause auto-scrolling for 5 seconds
+        partnersScroll.addEventListener('scroll', () => {
+            autoScrollActive = false;
+            clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(() => {
+                autoScrollActive = true;
+            }, 4000);
+        });
+
+        // Initialize the section
         createPartnersSection();
+
+        // Start auto-scrolling every 10 seconds
+        setInterval(autoScroll, 1000);
+
     </script>
 </body>
 </html>
-
