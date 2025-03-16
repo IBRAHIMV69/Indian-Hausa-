@@ -12,7 +12,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #20202A;
+            background-color: #f9f9f9;
         }
         header {
             position: fixed;
@@ -20,7 +20,7 @@
             left: 0;
             width: 100%;
             height: 50px;
-            background-color: #1A1A24;
+            background-color: #fff;
             display: flex;
             border: 1px solid #ccc;
             border-radius: 0px;
@@ -37,7 +37,7 @@
             width: 100%;
         }
         .logo {
-            font-size: 17px;
+            font-size: 16px;
             margin: 0 9px;
             border: 1px solid #ccc;
             background: linear-gradient(to right, #fe5a51, #fe0000, #d5002c);
@@ -50,11 +50,10 @@
             flex: 0 1 100px;
             margin: 0 10px;            
             padding: 7px;
-            background-color: #555;
+            background-color: #f1f1f1;
             border: 2px solid #ccc;
             border-radius: 20px;
             font-size: 14px;
-            color: #fff;
         }
         .icons {
             display: flex;
@@ -64,10 +63,10 @@
         .history-icon {
             font-size: 20px;
             cursor: pointer;
-            color: #ccc;
+            color: #333;
         }
         .history-icon:hover {
-            color: #fe5a51;
+            color: #00b300;
         }
 
         /* History Modal */
@@ -77,7 +76,7 @@
             top: 80px;
             right: 10px;
             width: 320px;
-            background-color: #20202A;
+            background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             z-index: 1000;
@@ -95,13 +94,13 @@
         .history-modal-header h3 {
             font-size: 16px;
             margin: 0;
-            color: #fff;
+            color: #333;
         }
         .history-modal-header button {
             background: none;
             border: none;
-            color: #fff;
-            font-size: 20px;
+            color: #333;
+            font-size: 16px;
             cursor: pointer;
         }
         .history-modal-header button:hover {
@@ -133,12 +132,12 @@
         .history-item h4 {
             font-size: 14px;
             margin: 0;
-            color: #fff;
+            color: #333;
         }
         .history-item p {
             font-size: 12px;
             margin: 0;
-            color: #fff;
+            color: #777;
         }
         .history-item button {
             background: linear-gradient(to right, #fe5a51, #fe0000, #d5002c);
@@ -169,12 +168,11 @@
 
         /* Discover Section */
         .discover-container {
-            margin-top: 70px;
+            margin-top: 55px;
             padding: 8px;
         }
         .discover-title {
             font-size: 20px;
-            color: #fff;
             font-weight: bold;
             margin-bottom: 15px;
         }
@@ -197,7 +195,7 @@
         .discover-item {
             flex: 0 0 auto;
             width: 130px;
-            background-color: #20202A;
+            background-color: #f0f0f0;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             overflow: hidden;
@@ -216,7 +214,7 @@
         .discover-item .content h2 {
             font-size: 6px;
             margin: 0;
-            color: #fff;
+            color: #333;
         }
         .discover-item .content p {
             font-size: 0px;
@@ -250,7 +248,6 @@
             font-weight: bold;
             margin-bottom: 15px;
             display: flex;
-            color: #ccc;
             margin-left: 7px;
             justify-content: space-between;
             align-items: center;
@@ -286,10 +283,9 @@
         
         .frame {
             flex: 0 0 auto;
-            width: 125px;
-            background-color: #20202A;
+            width: 112px;
+            background-color: #f0f0f0;
             border-radius: 8px;
-            color: #fff;
             margin-left: 0px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             overflow: hidden;
@@ -310,14 +306,14 @@
             background: linear-gradient(to right, #fe5a51, #fe0000, #d5002c);
             color: #fff;
             border: 1px solid #ccc;
-            padding: 5px 0px;
+            padding: 5px 5px;
             border-radius: 8px;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
             width: 100%;            
-            font-size: 9px;
+            font-size: 10px;
             text-align: center;
         }
         .frame .content button:hover {
@@ -459,7 +455,7 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background: linear-gradient(to right, #004d00, #00b300);
+    background: linear-gradient(to right, #fe5a51, #fe0000, #d5002c);
     color: white;
     font-size: 18px;
     cursor: pointer;
@@ -524,7 +520,7 @@
     left: 0;
     width: 300px;
     height: 100%;
-    background-color: #20202A;
+    background-color: #fff;
     border-right: 1px solid #ccc;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -544,16 +540,16 @@
 }
 
 .sidebar-modal-header h3 {
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
-    color: #fff;
+    color: #333;
 }
 
 .sidebar-modal-header button {
     background: none;
     border: none;
-    color: #fff;
-    font-size: 20px;
+    color: #333;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -585,18 +581,18 @@
 
 .sidebar-item span {
     font-size: 14px;
-    color: #fff;
+    color: #333;
 }
 /* Bars Icon */
 .bars-icon {
     font-size: 20px;
     cursor: pointer;
-    color: #ccc;
+    color: #333;
     margin-left: 10px;
 }
 
 .bars-icon:hover {
-    color: #fe5a51;
+    color: #00b300;
 }
 /* Logos Section */
    .logos-container {
@@ -646,7 +642,7 @@ footer {
     align-items: center;
     padding: 12px 0;
     border-radius: 10px;
-    background-color: #1A1A24;
+    background-color: #fff;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -658,7 +654,7 @@ footer {
 footer .nav-icon {
     flex: 1;
     text-align: center;
-    color: #ccc;
+    color: #333;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
     font-size: 9.2px;
@@ -675,7 +671,7 @@ footer .nav-icon i {
 
 footer .nav-icon.active,
 footer .nav-icon:hover {
-    color: #fe5a51;
+    color: #ff0000;
 }
 
 footer .nav-icon.active i,
@@ -781,7 +777,7 @@ footer.hide {
     position: absolute;
     bottom: 20px;
     right: 15px;
-    background: linear-gradient(to right, #004d00, #00b300);
+    background: linear-gradient(to right, #fe5a51, #fe0000, #d5002c);
     color: white;
     font-size: 14px;
     padding: 8px 12px;
@@ -940,7 +936,7 @@ footer.hide {
 
     <!-- Discover Section -->
 <div class="discover-container" id="discover-container">
-    <div class="discover-title">New Releases</div>
+    <div class="discover-title"></div>
     <div class="discover-scroll" id="discover-scroll"></div>
 
     <!-- Carousel Section -->
@@ -2337,7 +2333,7 @@ const createProfileItem = (item) => {
     name.textContent = item.name;
     name.style.margin = '0';
     name.style.fontSize = '14px';
-    name.style.color = '#ccc';
+    name.style.color = '#333';
 
     const description = document.createElement('p');
     description.textContent = item.description;
@@ -2428,8 +2424,8 @@ const createUnlockedListItem = (item) => {
     const title = document.createElement('h4');
     title.textContent = item.title;
     title.style.margin = '0';
-    title.style.fontSize = '12px';
-    title.style.color = '#ccc';
+    title.style.fontSize = '14px';
+    title.style.color = '#333';
 
     const description = document.createElement('p');
     description.textContent = item.description;
@@ -2726,15 +2722,15 @@ setTimeout(() => {
         
         const videos = [
     { 
-        img: "https://urlc.net/TItv", 
-        title: "Mai Nasara", 
-        buttonTitle: "Watch Now", 
+        img: "https://bit.ly/4hGtbnr", 
+        title: "She has a heart of ice. 🌹", 
+        buttonTitle: "Read Now", 
         link: "https://moviebox-drs.netlify.app/"
     },
     { 
-        img: "https://urlc.net/WrCP", 
+        img: "https://short-link.me/Tspl", 
         title: "Time is running out. 🥀", 
-        buttonTitle: "Watch Now", 
+        buttonTitle: "Read Now", 
         link: "https://moviebox-drs.netlify.app/"
     },
     { 
