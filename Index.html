@@ -12,7 +12,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #0e1929;
+            background-color: #f9f9f9;
         }
         header {
             position: fixed;
@@ -20,7 +20,7 @@
             left: 0;
             width: 100%;
             height: 50px;
-            background-color: #112044;
+            background-color: #fff;
             display: flex;
             border: 1px solid #ccc;
             border-radius: 0px;
@@ -63,7 +63,7 @@
         .history-icon {
             font-size: 20px;
             cursor: pointer;
-            color: #ccc;
+            color: #333;
         }
         .history-icon:hover {
             color: #ff0000;
@@ -195,7 +195,7 @@
         .discover-item {
             flex: 0 0 auto;
             width: 130px;
-            background-color: #112044;
+            background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             overflow: hidden;
@@ -214,7 +214,7 @@
         .discover-item .content h2 {
             font-size: 5px;
             margin: 0;
-            color: #fff;
+            color: #333;
         }
         .discover-item .content p {
             font-size: 0px;
@@ -248,7 +248,6 @@
             font-weight: bold;
             margin-bottom: 15px;
             display: flex;
-            color: #fff;
             margin-left: 7px;
             justify-content: space-between;
             align-items: center;
@@ -284,8 +283,8 @@
         
         .frame {
             flex: 0 0 auto;
-            width: 145px;
-            background-color: #112044;
+            width: 115px;
+            background-color: #fff;
             border-radius: 8px;
             margin-left: 0px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -300,7 +299,6 @@
         }
         .frame .content h2 {
             font-size: 2px;
-            color: #fff;
             text-align: center;
             margin-top: 0px;
         }
@@ -315,7 +313,7 @@
             align-items: center;
             justify-content: center;
             width: 100%;            
-            font-size: 10px;
+            font-size: 9px;
             text-align: center;
         }
         .frame .content button:hover {
@@ -589,7 +587,7 @@
 .bars-icon {
     font-size: 20px;
     cursor: pointer;
-    color: #ccc;
+    color: #333;
     margin-left: 10px;
 }
 
@@ -644,7 +642,7 @@ footer {
     align-items: center;
     padding: 12px 0;
     border-radius: 10px;
-    background-color: #112044;
+    background-color: #fff;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -656,7 +654,7 @@ footer {
 footer .nav-icon {
     flex: 1;
     text-align: center;
-    color: #ccc;
+    color: #333;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
     font-size: 9.2px;
@@ -2336,7 +2334,7 @@ const createProfileItem = (item) => {
     name.textContent = item.name;
     name.style.margin = '0';
     name.style.fontSize = '14px';
-    name.style.color = '#ccc';
+    name.style.color = '#333';
 
     const description = document.createElement('p');
     description.textContent = item.description;
@@ -2428,7 +2426,7 @@ const createUnlockedListItem = (item) => {
     title.textContent = item.title;
     title.style.margin = '0';
     title.style.fontSize = '11px';
-    title.style.color = '#ccc';
+    title.style.color = '#333';
 
     const description = document.createElement('p');
     description.textContent = item.description;
