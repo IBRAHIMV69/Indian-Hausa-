@@ -12,7 +12,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #121212; 
+            background-color: #f9f9f9;
         }
         header {
             position: fixed;
@@ -20,7 +20,7 @@
             left: 0;
             width: 100%;
             height: 50px;
-            background-color: #1A1A24;
+            background-color: #fff;
             display: flex;
             border: 1px solid #ccc;
             border-radius: 0px;
@@ -40,8 +40,7 @@
             font-size: 16px;
             margin: 0 9px;
             border: 1px solid #ccc;
-            background: linear-gradient(to right, #00b300, #008000); /* Green gradient */
-      
+            background: linear-gradient(to right, #fe5a51, #fe0000, #d5002c);
             border-radius: 20px;
             padding: 9px 9px;
             font-weight: bold;
@@ -51,15 +50,11 @@
             flex: 0 1 100px;
             margin: 0 10px;            
             padding: 7px;
-            background-color: #555;
+            background-color: #f1f1f1;
             border: 2px solid #ccc;
             border-radius: 20px;
             font-size: 14px;
-            color: #fff;
         }
-        #search-bar::placeholder {
-        color: #ccc; /* Light gray placeholder */
-    }
         .icons {
             display: flex;
             align-items: center;
@@ -68,10 +63,10 @@
         .history-icon {
             font-size: 20px;
             cursor: pointer;
-            color: #ccc;
+            color: #333;
         }
         .history-icon:hover {
-            color: #00b300;
+            color: #ff0000;
         }
 
         /* History Modal */
@@ -81,7 +76,7 @@
             top: 80px;
             right: 10px;
             width: 320px;
-            background-color: #121212;
+            background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             z-index: 1000;
@@ -99,12 +94,12 @@
         .history-modal-header h3 {
             font-size: 16px;
             margin: 0;
-            color: #fff;
+            color: #333;
         }
         .history-modal-header button {
             background: none;
             border: none;
-            color: #fff;
+            color: #333;
             font-size: 16px;
             cursor: pointer;
         }
@@ -137,15 +132,15 @@
         .history-item h4 {
             font-size: 11px;
             margin: 0;
-            color: #fff;
+            color: #333;
         }
         .history-item p {
             font-size: 12px;
             margin: 0;
-            color: #fff;
+            color: #777;
         }
         .history-item button {
-            background: linear-gradient(to right, #00b300, #008000); /* Green gradient */
+            background: linear-gradient(to right, #fe5a51, #fe0000, #d5002c);
             color: #fff;
             border: 1px solid #ccc;
             padding: 5px 5px;
@@ -159,7 +154,7 @@
         }
         .clear-history-button {
             width: 100%;
-            background: linear-gradient(to right, #00b300, #008000); /* Green gradient */
+            background: linear-gradient(to right, #fe5a51, #fe0000, #d5002c);
             color: #fff;
             border: none;
             padding: 10px;
@@ -168,7 +163,7 @@
             margin-top: 10px;
         }
         .clear-history-button:hover {
-            background-color: #008000;
+            background-color: #ff0000;
         }
 
         /* Discover Section */
@@ -177,8 +172,7 @@
             padding: 8px;
         }
         .discover-title {
-            font-size: 18px;
-            color: #fff;
+            font-size: 20px;
             font-weight: bold;
             margin-bottom: 15px;
         }
@@ -200,8 +194,8 @@
         }
         .discover-item {
             flex: 0 0 auto;
-            width: 115px;
-            background-color: #;
+            width: 130px;
+            background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             overflow: hidden;
@@ -220,7 +214,7 @@
         .discover-item .content h2 {
             font-size: 5px;
             margin: 0;
-            color: #fff;
+            color: #333;
         }
         .discover-item .content p {
             font-size: 0px;
@@ -228,8 +222,7 @@
             margin: 0px 0;
         }
         .discover-item button {
-    background: linear-gradient(to right, #00b300, #008000); /* Green gradient */
-      
+    background: linear-gradient(to right, #fe5a51, #fe0000, #d5002c);
     color: #fff;
     border: 1px solid #ccc;
     padding: 5px 2px;
@@ -255,7 +248,6 @@
             font-weight: bold;
             margin-bottom: 15px;
             display: flex;
-            color: #fff;
             margin-left: 7px;
             justify-content: space-between;
             align-items: center;
@@ -292,7 +284,7 @@
         .frame {
             flex: 0 0 auto;
             width: 115px;
-            background-color: #;
+            background-color: #fff;
             border-radius: 8px;
             margin-left: 0px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -301,19 +293,17 @@
         }
         .frame img {
             width: 100%;
-            aspect-ratio: 16 / 23;
+            aspect-ratio: 16 / 24;
             object-fit: cover;
             border-radius: 5px;
         }
         .frame .content h2 {
             font-size: 2px;
-            color: #fff;
             text-align: center;
             margin-top: 2px;
         }
         .frame .content button {
-            background: linear-gradient(to right, #00b300, #008000); /* Green gradient */
-      
+            background: linear-gradient(to right, #fe5a51, #fe0000, #d5002c);
             color: #fff;
             border: 1px solid #ccc;
             padding: 5px 5px;
@@ -323,8 +313,7 @@
             align-items: center;
             justify-content: center;
             width: 100%;            
-            font-size: 10px;
-            margin-top: 4px;
+            font-size: 9px;
             text-align: center;
         }
         .frame .content button:hover {
@@ -447,7 +436,7 @@
 
 #social-media-descriptions h2 {
     font-size: 15px;
-    color: #ccc;
+    color: #333;
     margin: 0;
 }
 
@@ -463,12 +452,12 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    background: linear-gradient(to right, #00b300, #008000); /* Green gradient */
+    background: linear-gradient(to right, #fe5a51, #fe0000, #d5002c);
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
     text-decoration: none;
     transition: background-color 0.3s ease;
@@ -531,7 +520,7 @@
     left: 0;
     width: 300px;
     height: 100%;
-    background-color: #121212;
+    background-color: #fff;
     border-right: 1px solid #ccc;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -553,19 +542,19 @@
 .sidebar-modal-header h3 {
     font-size: 18px;
     margin: 0;
-    color: #fff;
+    color: #333;
 }
 
 .sidebar-modal-header button {
     background: none;
     border: none;
-    color: #fff;
-    font-size: 15px;
+    color: #333;
+    font-size: 16px;
     cursor: pointer;
 }
 
 .sidebar-modal-header button:hover {
-    color: #00b300;
+    color: #007bff;
 }
 
 .sidebar-list {
@@ -592,18 +581,18 @@
 
 .sidebar-item span {
     font-size: 14px;
-    color: #fff;
+    color: #333;
 }
 /* Bars Icon */
 .bars-icon {
     font-size: 20px;
     cursor: pointer;
-    color: #ccc;
+    color: #333;
     margin-left: 10px;
 }
 
 .bars-icon:hover {
-    color: #00b300;
+    color: #ff0000;
 }
 /* Logos Section */
    .logos-container {
@@ -612,7 +601,6 @@
    }
    .logos-title {
        font-size: 18px;
-       color: #ccc;
        font-weight: bold;
        margin-bottom: 10px;
    }
@@ -623,7 +611,7 @@
        padding-bottom: 10px;
    }
    .logos-scroll::-webkit-scrollbar {
-       height: 0px;
+       height: 8px;
    }
    .logos-scroll::-webkit-scrollbar-thumb {
        background-color: #888;
@@ -652,9 +640,9 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 0;
+    padding: 12px 0;
     border-radius: 10px;
-    background-color: #1A1A24;
+    background-color: #fff;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -666,7 +654,7 @@ footer {
 footer .nav-icon {
     flex: 1;
     text-align: center;
-    color: #ccc;
+    color: #333;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
     font-size: 9.2px;
@@ -683,7 +671,7 @@ footer .nav-icon i {
 
 footer .nav-icon.active,
 footer .nav-icon:hover {
-    color: #00b300;
+    color: #ff0000;
 }
 
 footer .nav-icon.active i,
@@ -876,6 +864,7 @@ footer.hide {
             height: 80px;
             object-fit: cover;
             border-radius: 50px;
+            border: 1px solid #ff0000;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: transform 0.2s;
         }
@@ -887,7 +876,7 @@ footer.hide {
         .partner-title {
             font-size: 10px;
             margin-top: 5px;
-            color: #fff;
+            color: #333;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -915,7 +904,7 @@ footer.hide {
     <!-- Sidebar Modal -->
 <div class="sidebar-modal" id="sidebar-modal">
     <div class="sidebar-modal-header">
-        <h3><i class="fas fa-home"></i></h3>
+        <h3>Menu</h3>
         <button onclick="toggleSidebarModal()">✖</button>
     </div>
     <!-- Logos Section -->
@@ -956,7 +945,7 @@ footer.hide {
         <div class="carousel" id="carousel"></div>
         <div class="dots" id="dots"></div>
     </div>
-</div>        
+</div>                
 
     <!-- Categories Section -->
     <div id="categories-container"></div>
@@ -1634,276 +1623,276 @@ footer.hide {
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RPiQ",
+        imgUrl: "https://tinylink.info/107XH",
         videoUrl: "https://mega.nz/embed/Bp4yGIgB#g4XDfFVFI6XtAaSqF8x7Fu6a5qnzTPqMdSoZwwzmpyk",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "DANYEN AIKI ALGAITA",
+        title: "DANYEN AIKI",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RPhA",
+        imgUrl: "https://tinylink.info/XdDV",
         videoUrl: "https://mega.nz/embed/chxBwKbQ#syjXVCY4e32cf8NslpsXYqXl66EsduK7vbTT46iASeE",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "GAIBU ALGAITA",
+        title: "GAIBU",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RPfL",
+        imgUrl: "https://tinylink.info/107Wd",
         videoUrl: "https://mega.nz/embed/phQCgQjS#7JtILOglsulh6FDj0aWmSItyujGwl5F7onMaFMguFCI",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "GAGARE (2) ALGAITA",
+        title: "GAGARE (2)",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/Usrn",
+        imgUrl: "https://tinylink.info/107VW",
         videoUrl: "https://mega.nz/embed/AhhnQCwb#CJWfxHyrkmfo27Iw8PHap-_7jZ_y_crla-OQM6mVZjg",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "GAGARE (1) ALGAITA",
+        title: "GAGARE (1)",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/Usp0",
+        imgUrl: "https://tinylink.info/XdAp",
         videoUrl: "https://mega.nz/embed/A8ZDzCYa#hAANW8fzv0iUbJBCBjwRDlvZ9F7rl8vZ1jTH92syh00",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "DAN DAMISA ALGAITA",
+        title: "DAN DAMISA",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RP7G",
+        imgUrl: "https://tinylink.info/XdzR",
         videoUrl: "https://mega.nz/embed/UtQFkZ5a#bdr3z2qTgoGT8CqvDkPOOikNeelWVw6tIoED8fCYvGE",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "DAMISA ALGAITA",
+        title: "DAMISA",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RP5I",
+        imgUrl: "https://tinylink.info/107Sg",
         videoUrl: "https://mega.nz/embed/9wQGTKpI#Tdv2LR8ymvH-Bhd2QlvExj-n6AlWexqjl-v6O-UuXSw",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
         title: "DANBEN MAZA (2) ALGAITA",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RP5I",
+        imgUrl: "https://tinylink.info/107Sg",
         videoUrl: "https://mega.nz/embed/05hAADpC#WMQOX1W7QrQHWOKnzerlw8ls6MWH_WzP2tGIawtCsXg",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
         title: "DAMBEN MAZA (1) ALGAITA",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RP0h",
+        imgUrl: "https://tinylink.info/XdCw",
         videoUrl: "https://mega.nz/embed/spoghIjR#P8_kaxXeU1NHd80Aj4hIe9XXLVVu_zDRUw9jOqIvJVk",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "GADAR ZARE (2) ALGAITA",
+        title: "GADAR ZARE (2)",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RP0h",
+        imgUrl: "https://tinylink.info/XdCw",
         videoUrl: "https://mega.nz/embed/YxgnzQRT#mso9O7nDEvV6ikQDmuOgEHC_nVVnTUQt5cvasbSnO8Y",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "GADAR ZARE (1) ALGAITA",
+        title: "GADAR ZARE (1)",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/ROZ0",
+        imgUrl: "https://tinylink.info/107RG",
         videoUrl: "https://mega.nz/embed/594A3Aja#a6a_KMQSYWxskrFFq4a8hMBa-FEmI1Mx6vJcNNrLRxY",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "DAN KWALISA ALGAITA",
+        title: "DAN KWALISA",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/Usaq",
+        imgUrl: "https://tinylink.info/XdyA",
         videoUrl: "https://mega.nz/embed/Rx4jwDjI#7wPLeKW5LuKOpkAoGgbcJBZtlK6-fms5QlylTPzN9gM",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "CIMA ZAUNE ALGAITA",
+        title: "CIMA ZAUNE",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/UrN2",
+        imgUrl: "https://tinylink.info/Xdx-",
         videoUrl: "https://mega.nz/embed/l4Qy2TzT#7A7lHPElDvm_2Q8ySx5b4YItPjA8t7zgzTC660xIjN0",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "BIRNIN TARIHI (1) ALGAITA",
+        title: "BIRNIN TARIHI (1)",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/ROfz",
+        imgUrl: "https://tinylink.info/XdxV",
         videoUrl: "https://mega.nz/embed/l85WGIrA#o-VYIScap1R9rN-JRRZLFuAGmj2m1rL-flNVtJbtLDA",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "BIRNIN TARIHI (2) ALGAITA",
+        title: "BIRNIN TARIHI (2)",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RObm",
+        imgUrl: "https://tinylink.info/Xdxy",
         videoUrl: "https://mega.nz/embed/Uw52hb4B#ecsngIoNwDOGrviYPs2np5-gTL5k6rO3R-Dgf-uK-Mw",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "BIJIRARRE ALGAITA",
+        title: "BIJIRARRE",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/UqVG",
+        imgUrl: "https://tinylink.info/Xdxb",
         videoUrl: "https://mega.nz/embed/ggZ2USDC#_s3i7ikPXINuYaG47zwFQo794_U63uOG3Q-s5hTyFXY",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "BADALI MASTER ALGAITA",
+        title: "BADALI MASTER",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RNHL",
+        imgUrl: "https://tinylink.info/107Pv",
         videoUrl: "https://mega.nz/embed/54YWjRBY#K3U_gGSZiDW7LMre0PTjPQcc18U1KX1mheuuksd-gz8",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "AMANAR TALAKA ALGAITA",
+        title: "AMANAR TALAKA",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/UqRW",
+        imgUrl: "https://tinylink.info/Xdws",
         videoUrl: "https://mega.nz/embed/pgI1XaZa#G4QKNwM0Ynvx4aF4o6Gr1W_PjhqGBNqXK8AVURAxrbw",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "A BUSA ALGAITA",
+        title: "A BUSA",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/UqQy",
+        imgUrl: "https://tinylink.info/107O4",
         videoUrl: "https://mega.nz/embed/dwJyUDrI#gc3o_AzNXr7K39YlYel_1A5K5jcNnjwIDviMtiWbZxw",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "'YAN UKU ALGAITA",
+        title: "'YAN UKU",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/UqLX",
+        imgUrl: "https://tinylink.info/Xdu1",
         videoUrl: "https://mega.nz/embed/VhhFQYKL#6dchOs8HwkB5SFkBR-Sl_7VF9uoIA1ekRgPHJZyMY2Y",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "DAABI ALGAITA",
+        title: "DAABI",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/UqJn",
+        imgUrl: "https://tinylink.info/107Mn",
         videoUrl: "https://mega.nz/embed/UlRDSYqC#SyzJfG8SqbQ4HrUWEye-JYX2epIe6ezDQYnh7zFSQiI",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "LABARIN DAN SANDA ALGAITA",
+        title: "LABARIN DAN SANDA",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/UqH1",
+        imgUrl: "https://tinylink.info/107LE",
         videoUrl: "https://mega.nz/embed/c9J3DZiL#pH9L9Yr1_N3VHRwFW-LgwPJ3q2Idz-nxzb_mb7NfzK8",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "JAJIRTACCE ALGAITA",
+        title: "JAJIRTACCE",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/UqEz",
+        imgUrl: "https://tinylink.info/107KS",
         videoUrl: "https://mega.nz/embed/1xohhZ5D#OCkQlGu69805LM0Tq5OU9ZY8z1VuP2AkRqu7bb69T2Y",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "BABBAR YAYA ALGAITA",
+        title: "BABBAR YAYA",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/UqDr",
+        imgUrl: "https://tinylink.info/XdrY",
         videoUrl: "https://mega.nz/embed/ZhBVQRCQ#v6KMMhzFG8a2z5b-giz41esq7PHxOfTw0TQHJDjm824",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "BOKAN YAKI ALGAITA",
+        title: "BOKAN YAKI",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RNqm",
+        imgUrl: "https://tinylink.info/107K5",
         videoUrl: "https://mega.nz/embed/Z8ZFmBIS#LsQVTagmvNZ5BDX6GwKRXaRjH0wHozzR2C80kRNWLIg",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "SAMBADEBADE ALGAITA",
+        title: "SAMBADEBADE",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/UukF",
+        imgUrl: "https://tinylink.info/107Jx",
         videoUrl: "https://mega.nz/embed/ogQWWYhC#JvLKzoozFV1jp-hScklS4BiivV_ay1rtFAmiABY8pU8",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "GARWASHI ALGAITA",
+        title: "GARWASHI",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RR1h",
+        imgUrl: "https://tinylink.info/107EJ",
         videoUrl: "https://mega.nz/embed/gpp33bjA#eVQL3qa5-nmTDVPBCHH81gCU_6tCeei4jzY82D3ITI0",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "MAKIYAYI ALGAITA",
+        title: "MAKIYAYI",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/Uuj6",
+        imgUrl: "https://tinylink.info/107Es",
         videoUrl: "https://mega.nz/embed/d9A33RZb#Jc5kQXW_eoKlu-tcxe0YOVk2mmmqxYEit_1vzZ6ebZI",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "DAN BASAJA ALGAITA",
+        title: "DAN BASAJA",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RNdj",
+        imgUrl: "https://tinylink.info/Xdlo",
         videoUrl: "https://mega.nz/embed/9oxXkaBa#1AuI6D4SlTWrOvVzkLBMPmJNc4mHe3IAuXGijO1-aSo",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "DAN MAI KARFI ALGAITA",
+        title: "DAN MAI KARFI",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/Uql7",
+        imgUrl: "https://tinylink.info/Xdj2",
         videoUrl: "https://mega.nz/embed/k4IVUJQY#5bk6NgX70Xf7E3hFfMAeYjt_jXiZq5JnmxVAsbCBccM",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "GIJIN YAKI ALGAITA",
+        title: "GIJIN YAKI",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RN7G",
+        imgUrl: "https://tinylink.info/107Bm",
         videoUrl: "https://mega.nz/embed/8lZHSA6R#ufmsTabC8Bf9MIuGK_LCBd7_-pV8d2k31Ga7ZkBsvzk",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "GHAJINI AZZALUMI ALGAITA",
+        title: "GHAJINI",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RN0x",
+        imgUrl: "https://tinylink.info/XdhJ",
         videoUrl: "https://mega.nz/embed/J1h2wArA#N4DGghHQxA2uQMnHYjE_jZPFra-OHuE1DvmB6Cwziwo",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "AZZALUMIN RUHI ALGAITA",
+        title: "AZZALUMIN RUHI",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/Uq6z",
+        imgUrl: "https://tinylink.info/107zC",
         videoUrl: "https://mega.nz/embed/o8oiDDoD#xTtf33vhpGjZgIa6lfmOJDaqepIVdxSjRchD6URtnB8",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "ALKAWARI ALGAITA",
+        title: "ALKAWARI",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/Uq4Z",
+        imgUrl: "https://tinylink.info/XdgB",
         videoUrl: "https://mega.nz/embed/tgpVQCrL#bwMndpko7DlTh95JcAUHdRCSXx0PoMmYYXrhPWFF_TA",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "MATASHIN SOJA ALGAITA",
+        title: "MATASHIN SOJA",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RMTv",
+        imgUrl: "https://tinylink.info/Xdf-",
         videoUrl: "https://mega.nz/embed/gpYm2bzQ#YOp7B7u1t9hnIJm6suVVleCUhdxgfmAUWv8YlGiH9IY",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "KAIDI ALGAITA",
+        title: "KAIDI",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/RMQR",
+        imgUrl: "https://tinylink.info/107xP",
         videoUrl: "https://mega.nz/embed/gopCDLCb#ekDhfKzSVWoWapu7RAeE6hVvRcoGHcHyuYJ1dtG882Q",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "MAI MAKANA ALGAITA",
+        title: "MAI MAKANA",
         category: "Algaita Dub-Studio",
     },
         {
-        imgUrl: "https://short-link.me/UpXL",
+        imgUrl: "https://tinylink.info/XdeX",
         videoUrl: "https://mega.nz/embed/0lxnXaCL#8sFJrnzKvQuGGZh681c0nsiAepKM0gB4D0AfMgyCZ2A",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "USTAZ ALGAITA",
+        title: "USTAZ",
         category: "Algaita Dub-Studio",
     },
     {
-        imgUrl: "https://short-link.me/RMLE",
+        imgUrl: "https://tinylink.info/107wE",
         videoUrl: "https://mega.nz/embed/4pw1RRAC#O3dakYRcx39fhoFzkk_zu3JiNZfJstXBBS0lcGtZBxg",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "KABILANCI ALGAITA",
+        title: "KABILANCI",
         category: "Algaita Dub-Studio",
     },
     {
-        imgUrl: "https://short-link.me/RMJr",
+        imgUrl: "https://tinylink.info/XddM",
         videoUrl: "https://mega.nz/embed/d4YFkTDJ#uYB2AlO15C2btKPL-NELzBGPF1Ouu0yDAr7FVtHvmUQ",
         adUrl: "https://www.effectiveratecpm.com/yj516zqeuh?key=67623d7811021ba7d072604ff121c586",
-        title: "ZAKIN HUKUMA ALGAITA",
+        title: "ZAKIN HUKUMA",
         category: "Algaita Dub-Studio",
     },        
     {
@@ -2111,7 +2100,7 @@ const createCategories = () => {
                 ${category}
                 <i class="fas fa-chevron-right"></i> <!-- Right arrow icon -->
             </span>
-            <button onclick="showAllVideos('${category}')">All <i class="fas fa-chevron-right"></i></button>
+            <button onclick="showAllVideos('${category}')"><i class="fas fa-th"></i> View All</button>
         `;
 
         // Make the entire title clickable
@@ -2345,7 +2334,7 @@ const createProfileItem = (item) => {
     name.textContent = item.name;
     name.style.margin = '0';
     name.style.fontSize = '14px';
-    name.style.color = '#ccc';
+    name.style.color = '#333';
 
     const description = document.createElement('p');
     description.textContent = item.description;
@@ -2425,8 +2414,8 @@ const createUnlockedListItem = (item) => {
     const img = document.createElement('img');
     img.src = item.imgUrl;
     img.alt = item.title;
-    img.style.width = '100px';
-    img.style.height = '150px';
+    img.style.width = '80px';
+    img.style.height = '100px';
     img.style.objectFit = 'cover';
     img.style.borderRadius = '5px';
 
@@ -2437,7 +2426,7 @@ const createUnlockedListItem = (item) => {
     title.textContent = item.title;
     title.style.margin = '0';
     title.style.fontSize = '11px';
-    title.style.color = '#ccc';
+    title.style.color = '#333';
 
     const description = document.createElement('p');
     description.textContent = item.description;
@@ -2447,7 +2436,7 @@ const createUnlockedListItem = (item) => {
 
     const button = document.createElement('button');
     button.textContent = 'Open ✅';
-    button.style.backgroundColor = '#00b300';
+    button.style.backgroundColor = '#ff0000';
     button.style.color = '#fff';
     button.style.border = '1px solid #ccc';
     button.style.padding = '5px 10px';
@@ -2731,7 +2720,6 @@ setTimeout(() => {
         function closeNotification() {
             document.getElementById('notification-bar').style.opacity = '0';
         }
-        
 
 const partnersData = [
             { imgUrl: "https://short-link.me/QSiT", videoUrl: "https://youtube.com/embed/3_i60BLtN_s", title: "ALAQA" },
